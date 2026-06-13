@@ -1,12 +1,13 @@
 # 🔐 Cybersecurity Journey
 
-> Computer Science graduate student (Information security, starting WS 2026) building offensive security skills from the ground up — systematically, publicly, and with the goal of generating side income through Bug Bounty and freelance pentesting.
+> Im Flo and im starting to study Information security upcoming WS in 2026.
+> I´ll build up offensive/defensive security skills from the ground up — systematically, publicly, and with the side-goal of generating "passive" income through Bug Bounty and freelance pentesting while studying.
 
 ---
 
 ## 👤 Background
 
-- **Working student** in an InfoSec team (organizational & process work, transitioning to technical)
+- **Working student** in an InfoSec team at SSI Schäfer 
 - **7 semesters** of Computer Science — networking, OS, programming fundamentals in place
 - Familiar with Wireshark, basic network analysis, Linux terminal
 - Starting B.En. in Information Security, October 2026
