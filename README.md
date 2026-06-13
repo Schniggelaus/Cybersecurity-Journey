@@ -162,8 +162,7 @@ Recon Tool:           ░░░░░░░░░░ (not started)
 
 ## 📬 Contact
 
-- **LinkedIn:** *(add link)*
-- **HackerOne:** *(add when active, Phase 2)*
+- **LinkedIn: https://www.linkedin.com/in/florian-niklaus-652786270/
 
 ---
 
