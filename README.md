@@ -45,22 +45,6 @@ This repo documents everything: labs, writeups, tools I build, and the roadmap I
 | Tooling | Burp Suite, Nmap, Gobuster, Wireshark | ⬜ |
 | Own Tool | Python Recon Script (subfinder + nmap + HTML report) | ⬜ |
 
-### Phase 1 Writeups
-
-| # | Title | Platform | Date |
-|---|---|---|---|
-| 01 | — | — | — |
-| 02 | — | — | — |
-| 03 | — | — | — |
-| 04 | — | — | — |
-| 05 | — | — | — |
-| 06 | — | — | — |
-| 07 | — | — | — |
-| 08 | — | — | — |
-| 09 | — | — | — |
-| 10 | — | — | — |
-| 11 | — | — | — |
-| 12 | — | — | — |
 
 > Writeups will be added as individual markdown files in `/writeups/phase1/`
 
@@ -78,7 +62,7 @@ This repo documents everything: labs, writeups, tools I build, and the roadmap I
 
 ### Planned Curriculum
 
-- INE eJPT Course + Exam (~200 €)
+- INE eJPT Course + Exam 
 - HackerOne / Bugcrowd — active Bug Bounty hunting (web-focused scope)
 - PortSwigger Advanced Labs (Deserialization, HTTP Smuggling, OAuth)
 - Cloud Security Basics (AWS misconfigs via CloudGoat)
@@ -88,7 +72,7 @@ This repo documents everything: labs, writeups, tools I build, and the roadmap I
 | Channel | Realistic Expectation | Notes |
 |---|---|---|
 | Bug Bounty (HackerOne) | $0–500 total | Low/Medium findings, no guarantee |
-| Fiverr Micro-Gigs | 30–100 € per gig | Security review, CTF coaching |
+| Fiverr Micro-Gigs | 30–100 € per gig | Security review |
 | Freelance (direct) | 0–1 projects | Via network, needs portfolio first |
 
 
@@ -153,10 +137,10 @@ cybersecurity-journey/
 **Phase 1** — Week 1 of 12
 
 ```
-HTB Machines (Easy):  0 / 6  ░░░░░░░░░░
+HTB Machines (Easy):  0 / 6  █░░░░░░░░░
 PortSwigger Modules:  0 / 8  ░░░░░░░░░░
 Writeups Published:   0 / 12 ░░░░░░░░░░
-Recon Tool:           ░░░░░░░░░░ (not started)
+Recon Tool:                  ░░░░░░░░░░ 
 ```
 
 ---
