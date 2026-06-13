@@ -1,6 +1,6 @@
 # 🔐 Cybersecurity Journey
 
-> Computer Science graduate student (Informationssicherheit, starting WS 2026) building offensive security skills from the ground up — systematically, publicly, and with the goal of generating side income through Bug Bounty and freelance pentesting.
+> Computer Science graduate student (Information security, starting WS 2026) building offensive security skills from the ground up — systematically, publicly, and with the goal of generating side income through Bug Bounty and freelance pentesting.
 
 ---
 
