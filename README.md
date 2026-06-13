@@ -6,10 +6,10 @@
 
 ## 👤 Background
 
-- **Werkstudent** in an InfoSec team (organizational & process work, transitioning to technical)
+- **Working student** in an InfoSec team (organizational & process work, transitioning to technical)
 - **7 semesters** of Computer Science — networking, OS, programming fundamentals in place
 - Familiar with Wireshark, basic network analysis, Linux terminal
-- Starting M.Sc. in Information Security, October 2026
+- Starting B.En. in Information Security, October 2026
 
 This repo documents everything: labs, writeups, tools I build, and the roadmap I follow. No gatekeeping, no polished-after-the-fact posts — raw progress.
 
