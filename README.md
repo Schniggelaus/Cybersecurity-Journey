@@ -90,7 +90,6 @@ This repo documents everything: labs, writeups, tools I build, and the roadmap I
 | Fiverr Micro-Gigs | 30–100 € per gig | Security review, CTF coaching |
 | Freelance (direct) | 0–1 projects | Via network, needs portfolio first |
 
-> No Gewerbe (business registration) needed until hitting ~600 €/year threshold in Germany.
 
 ---
 
