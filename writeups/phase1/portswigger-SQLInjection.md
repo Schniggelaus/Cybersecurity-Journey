@@ -100,7 +100,7 @@ Payload we want to inject into `storeId`:
 UNION SELECT username || '~' || password FROM users
 ```
 
-The `||` operator concatenates username and password with `~` as separator so we get output like `administrator~s3cr3tpassword`.
+The `||` operator concatenates username and password with `~` as separator so we get output like `administrator~ur4ik27zgtl9c3k79va9`.
 
 ### Solution
 
