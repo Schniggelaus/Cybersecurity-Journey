@@ -7,6 +7,8 @@
   
 ## 14.06.2026
 - Learned about SQL Injection on portswigger
+
+- `Writeups`: 
   
 ## Problems
-- Problems with executing SQL Injections when WAF is active -> Walkaround found with XML encoding and the help of Burp
+- Struggled with WAF bypass (Lab 3) → solved via XML encoding + Hackvertor
