@@ -131,14 +131,6 @@ The `||` operator concatenates username and password with `~` as separator so we
 | Relying on WAF only | Defense in depth at code level |
 | Verbose error messages | Generic error messages |
 
-**Prepared Statement example (Python):**
-```python
-# Vulnerable
-query = "SELECT * FROM users WHERE username = '" + username + "'"
-
-# Secure
-cursor.execute("SELECT * FROM users WHERE username = ?", (username,))
-```
 
 ---
 
