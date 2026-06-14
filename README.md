@@ -114,7 +114,7 @@ cybersecurity-journey/
 ├── README.md
 ├── writeups/
 │   ├── phase1/
-│   │   ├── 01-htb-starting-point.md
+│   │   ├── portswigger-SQLInjection.md
 │   │   └── ...
 │   └── phase2/
 ├── tools/
@@ -125,7 +125,7 @@ cybersecurity-journey/
 │   ├── cheatsheets/
 │   │   ├── nmap.md
 │   │   ├── privesc-linux.md
-│   │   └── web-vulns.md
+│   │   └── ...
 │   └── phase1-lab-notes.md
 └── resources.md
 ```
@@ -137,8 +137,8 @@ cybersecurity-journey/
 **Phase 1** — Week 1 of 12
 
 ```
-HTB Machines (Easy):  0 / 6  █░░░░░░░░░
-PortSwigger Modules:  0 / 8  ░░░░░░░░░░
+HTB Machines (Easy):  0 / 6  ░░░░░░░░░░
+PortSwigger Modules:  1 / 8  █░░░░░░░░░
 Writeups Published:   0 / 12 ░░░░░░░░░░
 Recon Tool:                  ░░░░░░░░░░ 
 ```
