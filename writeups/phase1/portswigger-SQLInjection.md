@@ -1,4 +1,4 @@
 ##Solution Lab "SQL injection vulnerability in WHERE clause allowing retrieval of hidden data"
-1. Use a search filter so the URL changes to something like: `https://0a1100db04525af580f4dab600df001b.web-security-academy.net/**filter?category=Accessories**`
+1. Use a search filter so the URL changes to something like: `https://0a1100db04525af580f4dab600df001b.web-security-academy.net/filter?category=Accessories`
 2. Add `'+OR+1=1--` to the URL 
 3. Lab solved since another new articel is displayed. 
