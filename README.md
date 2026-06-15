@@ -147,7 +147,7 @@ Recon Tool:                  ░░░░░░░░░░
 
 ## 📬 Contact
 
-- **LinkedIn: https://www.linkedin.com/in/florian-niklaus-652786270/
+- **LinkedIn:** https://www.linkedin.com/in/florian-niklaus-652786270/
 
 ---
 
