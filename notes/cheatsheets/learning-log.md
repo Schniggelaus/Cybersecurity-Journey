@@ -12,3 +12,7 @@
   
 ### Problems
 - Struggled with WAF bypass (Lab 3) → solved via XML encoding + Hackvertor
+
+## 15.06.2026
+- Learned about DNS on Tryhackme Course: "How the Web Works"
+- 
