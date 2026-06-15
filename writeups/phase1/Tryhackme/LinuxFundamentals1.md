@@ -13,11 +13,11 @@
 - `cat` : Concatenate (can be used to show content of a file)
 - `pwd` : Print working directory (prints current working directory path)
 - `find` : Finds a file 
-  - If we know the name of the file : `find -name nameoffile.txt`
-  - If we only know it has to be a `.txt`-file: `find -name *.txt`
+  - `find -name nameoffile.txt` if we know the name of the file
+  - `find -name *.txt` if we only know it has to be a `.txt`-file: 
     - `*` is a wildcard to search for anything that has `.txt` at the end
-  - `find / -name nameoffile.txt` # Searches from Root-directory
-  - `find . -name nameoffile.txt` # Searches from current cirectory
+  - `find / -name nameoffile.txt` : Searches from Root-directory
+  - `find . -name nameoffile.txt` : Searches from current cirectory
 - `grep` : Search content of files for specific value
   - With `grep "testString" Testfile.txt` it searches for the value: `testString` in `Testfile.txt` and returns the value if found
   - With `grep -R "testString" /etc/` it searches for the value `testString` in all files inside the directory `/etc/`
