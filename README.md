@@ -45,9 +45,6 @@ This repo documents everything: labs, writeups, tools I build, and the roadmap I
 | Tooling | Burp Suite, Nmap, Gobuster, Wireshark | ⬜ |
 | Own Tool | Python Recon Script (subfinder + nmap + HTML report) | ⬜ |
 
-
-> Writeups will be added as individual markdown files in `/writeups/phase1/`
-
 ### Phase 1 Milestone
 - [ ] Solve an HTB Easy Machine without a walkthrough
 - [ ] Complete PortSwigger Web Academy core modules
