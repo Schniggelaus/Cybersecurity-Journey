@@ -55,5 +55,3 @@ grep -R "searchterm" /etc/         # Recursively search all files in a directory
 | `>>` | Redirect output to a file (appends) | `echo "world" >> file.txt` |
 
 ---
-
-*Wird erweitert mit Linux Fundamentals Part 2 & 3*
