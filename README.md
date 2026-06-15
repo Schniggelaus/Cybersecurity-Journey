@@ -137,10 +137,14 @@ cybersecurity-journey/
 **Phase 1** — Week 1 of 12
 
 ```
-HTB Machines (Easy):  0 / 6  ░░░░░░░░░░
-PortSwigger Modules:  1 / 8  █░░░░░░░░░
-Writeups Published:   0 / 12 ░░░░░░░░░░
-Recon Tool:                  ░░░░░░░░░░ 
+HTB Machines (Easy):  0 / 6  ░░░░░░
+
+PortSwigger Modules:  1 / 8  █░░░░░░░
+
+TryhackMe Modules:    2/22   █░░░░░░░░░░░░░░░░░░░░░
+
+riteups Published:   3 / 36 ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ 
 ```
 
 ---
