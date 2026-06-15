@@ -1,7 +1,9 @@
 ## 15.06.2026
 - Learned about DNS on Tryhackme Course: "How the Web Works"
-
-
+- Learned Basic Commands for Linus in the Course: "Linux Fundamentals Part 1" on Tryhackme
+- New structured writeups
+- Created new Writeups: 
+- 
 ## 14.06.2026
 - Learned about SQL Injection on portswigger
 
