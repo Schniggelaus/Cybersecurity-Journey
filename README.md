@@ -51,8 +51,9 @@ This repo documents everything: labs, writeups, tools I build, and the roadmap I
 ### Phase 1 Milestone
 - [ ] Solve an HTB Easy Machine without a walkthrough
 - [ ] Complete PortSwigger Web Academy core modules
+- [ ] Complete TryhackMe modules
 - [ ] Publish recon tool (`/tools/recon/`)
-- [ ] 12 writeups published
+- [ ] 36 writeups published
 
 ---
 
