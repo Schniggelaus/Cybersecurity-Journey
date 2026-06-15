@@ -39,12 +39,12 @@ What happens when i make a DNS request:
     - if result is found locally -> send back to PC and request ends
     - if result is not found -> Journey starts to find correct answer, starting at internet´s root DNS server
 3. Root server = backbone of the internet -> It´ll redirect to correct `TLD-Server` (e.g: `www.tryhackme.com` ->
-root server will recognize `.com` and redirect to TLD server that deals with `.com` adresses
+   root server will recognize `.com` and redirect to TLD server that deals with `.com` adresses
 4. TLD-Server holds records of where to find the `authoritative server` to answer the DNS request.
 5. Authoritative DNS server responsible for storing DNS records for domain name -> DNS records will be sent back to
-`Recursive DNS Server`, where a local copy will be cached for future requests and then relayed back to original client.
-DNS records come with a TTL (Time to Live) value. TTL is a number representing seconds that the response should be saved
-locally until Recursive DNS Server has to look it up again
+   `Recursive DNS Server`, where a local copy will be cached for future requests and then relayed back to original client.
+   DNS records come with a TTL (Time to Live) value. TTL is a number representing seconds that the response should be saved
+   locally until Recursive DNS Server has to look it up again
 
 ```
 
