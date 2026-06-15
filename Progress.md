@@ -7,8 +7,7 @@
   
 ## 14.06.2026
 - Learned about SQL Injection on portswigger
-
-- `Writeups`: https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/writeups/phase1/portswigger-SQLInjection.md
+- Created new Writeups for [SQL Injection](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/writeups/phase1/portswigger-SQLInjection.md)
   
 ### Problems
 - Struggled with WAF bypass (Lab 3) → solved via XML encoding + Hackvertor
