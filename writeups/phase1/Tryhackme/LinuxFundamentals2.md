@@ -1,4 +1,4 @@
-### Linux Fundamentals Part 2 
+# Linux Fundamentals Part 2 
 
 ## Accessing Your Linux Machine Using SSH 
 
@@ -45,7 +45,7 @@
   -`w`= 2
   -`x`= 1
 
-# Examples
+### Examples
 
   |Group|Permissions|Calculation|Value|
   |-----|-----------|-----------|-----|
@@ -53,7 +53,7 @@
   |Group | rwx | 4+2+1 |7 |
   |Others | rwx | 4+2+1 | 7 |
 
-# Common Examples
+### Common Examples
 
 |Symbolic|Numeric|Meaning|
 |--------|-------|-------|
