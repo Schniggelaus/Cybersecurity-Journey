@@ -1,15 +1,15 @@
 ### Linux Fundamentals Part 2 
 
-## Accessing Your Linus Machine Using SSH 
+## Accessing Your Linux Machine Using SSH 
 
-- `SSH` ( Secure Shell) is used as a protrocol to have encrypted communication between 2 devices.
-  - Used to do commands on another Linux machine remotly
+- `SSH` ( Secure Shell) is used as a protocol to have encrypted communication between 2 devices.
+  - Used to do commands on another Linux machine remotely
  
-- Command for using SSH is: `ssh tryhackme@10.1010.10`
+- Command for using SSH is: `ssh tryhackme@10.10.10.10`
 - `tryhackme` is the username SSH will try to login to
-- `@` seperates the username and the IP-Address of the machine SSH is trying to login onto
+- `@` separates the username and the IP-Address of the machine SSH is trying to login onto
 - `10.10.10.10` is the IP-Address of the machine SSH is trying to login onto
-- after executing the command properbly, console wants you to login with the correct password. If done correctly your logged in onto the machine SSH with the IP-Address given
+- after executing the command properly, console wants you to login with the correct password. If done correctly you're logged in onto the machine SSH with the IP-Address given
 
 ## Introduction to Flags and Switches
 
@@ -23,14 +23,14 @@
 |-------|-------------|----------|-------|
 |touch|Create file|touch|`touch note`|
 |mkdir|Create a folder|make directory|`mkdir mydirectory`|
-|cp|Copy a file or folder|copy|`cp note note 2`|
+|cp|Copy a file or folder|copy|`cp note note2`|
 |mv|Move a file or folder|move|`mv note2 note3`|
 |rm|Remove a file or folder|remove|`rm mydirectory`|
-|file|Determime the type of a file|file|`file note`|
+|file|Determine the type of a file|file|`file note`|
 
 ## Permissions 101
 
-- Each file has permission rights either a user/group can `Read`,`Write` and/or `Execute` it
+- Each file has permission rights that define what a user/group can do: `Read`,`Write`, and/or `Execute`
   - Great for splitting up permissions in between users without big effort (e.g
 - Each file has a set of permissions following the symbolic format: `rwxrwxrwx`
    - First 3 are applying to the Owner
@@ -49,9 +49,9 @@
 
   |Group|Permissions|Calculation|Value|
   |-----|-----------|-----------|-----|
-  |Owner | rws | 4+2+1 | 7 |
-  |Group | rws | 4+2+1 |7 |
-  |Others | rws | 4+2+1 | 7 |
+  |Owner | rwx | 4+2+1 | 7 |
+  |Group | rwx | 4+2+1 |7 |
+  |Others | rwx | 4+2+1 | 7 |
 
 # Common Examples
 
@@ -65,7 +65,7 @@
 
 - `/etc`
   - Most important root directories on each system
-  - Stores `passwd`and `shadow` files, containing passwords for each user in encrypted format called `sha512`
+  - Stores `passwd`and `shadow` files, containing each users password stored as a hash using the `sha512` algorithm
   - Contains `sudoers` file, containing list of users & groups that have permission to run sudo command
 
 -`/var`
