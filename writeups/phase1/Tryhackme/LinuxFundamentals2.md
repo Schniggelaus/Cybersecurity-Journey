@@ -28,3 +28,60 @@
 |rm|Remove a file or folder|remove|`rm mydirectory`|
 |file|Determime the type of a file|file|`file note`|
 
+## Permissions 101
+
+- Each file has permission rights either a user/group can `Read`,`Write` and/or `Execute` it
+  - Great for splitting up permissions in between users without big effort (e.g
+- Each file has a set of permissions following the symbolic format: `rwxrwxrwx`
+   - First 3 are applying to the Owner
+   - Next 3 are applying to a Group
+   - Last 3 are applying to the rest
+ - Each letter represents a specific permission:
+   -`r`= read
+   -`w`= write
+   -`x`= execute
+- Each letter has a numeric value
+  -`r`= 4
+  -`w`= 2
+  -`x`= 1
+
+# Examples
+
+  |Group|Permissions|Calculation|Value|
+  |-----|-----------|-----------|-----|
+  |Owner | rws | 4+2+1 | 7 |
+  |Group | rws | 4+2+1 |7 |
+  |Others | rws | 4+2+1 | 7 |
+
+# Common Examples
+
+|Symbolic | Numeric | Meaning |
+| rwxr-xr-x | 755 | Owner can do anything, others can read and execute |
+| rw-r--r-- | 644 | Owner can read and write, others can only read |
+| rwx------ | 700 | Only the owner has access |
+
+## Common Directories
+
+- `/etc`
+  - Most important root directories on each system
+  - Stores `passwd`and `shadow` files, containing passwords for each user in encrypted format called `sha512`
+  - Contains `sudoers` file, containing list of users & groups that have permission to run sudo command
+
+-`/var`
+  - Stores data that is frequently accessed or written on (e.g. logfiles)
+
+- `/root`
+  - Home for "root" system user
+
+- `/tmp`
+  - Unique directory found on Linux
+  - Stores data that is only needed to be accessed once or twice
+  - On PC restart, content of this folder are cleared
+  - Any user can write on this folder by default
+
+
+
+
+
+
+  
