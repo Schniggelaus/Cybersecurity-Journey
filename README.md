@@ -139,7 +139,7 @@ HTB Machines (Easy):  0 / 6  ░░░░░░
 
 PortSwigger Modules:  1 / 8  █░░░░░░░
 
-TryhackMe Modules:    2/22   ████░░░░░░░░░░░░░░░░░░
+TryhackMe Modules:    4 / 22   ████░░░░░░░░░░░░░░░░░░
 
 Writeups Published:   5 / 36 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  
