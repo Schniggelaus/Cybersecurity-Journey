@@ -34,7 +34,7 @@ This repo documents everything: labs, writeups, tools I build, and the roadmap I
 
 | Area | Platform / Resource | Status |
 |---|---|---|
-| Linux Fundamentals | TryHackMe – Linux Fundamentals (1–3) | ⬜ |
+| Linux Fundamentals | TryHackMe – Linux Fundamentals (1–3) | ✅ |
 | Network Basics | TryHackMe – Network Fundamentals | ⬜ |
 | Web Security – SQLi, XSS, IDOR | PortSwigger Web Academy | ⬜ |
 | Web Security – SSRF, XXE, Auth | PortSwigger Web Academy | ⬜ |
@@ -139,9 +139,9 @@ HTB Machines (Easy):  0 / 6  ░░░░░░
 
 PortSwigger Modules:  1 / 8  █░░░░░░░
 
-TryhackMe Modules:    2/22   █░░░░░░░░░░░░░░░░░░░░░
+TryhackMe Modules:    2/22   ████░░░░░░░░░░░░░░░░░░
 
-Writeups Published:   3 / 36 ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+Writeups Published:   5 / 36 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  
 ```
 
