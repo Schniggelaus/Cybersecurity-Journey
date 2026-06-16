@@ -66,10 +66,10 @@
  - Crontab requires 5 values + 1 command:
 |Value|Description|
 |-----|-----------|
-|MIN|What minute to execute at|
-|HOUR|What hour to execute at|
-|DOM|What day of the month to execute at|
-|MON|What month of the year to execute at|
+|MIN | What minute to execute at|
+|HOUR | What hour to execute at|
+|DOM | What day of the month to execute at|
+|MON | What month of the year to execute at|
 |DOW| What day of the week to execute at|
 |CMD| Command being executed|
 **Example**
