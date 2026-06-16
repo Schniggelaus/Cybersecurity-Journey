@@ -56,7 +56,7 @@ grep -R "searchterm" /etc/         # Recursively search all files in a directory
 
 ---
 
-##Secure Shell Commands
+## Secure Shell Commands
 
 | Command | Description | Example
 |---------|-------------|--------|
