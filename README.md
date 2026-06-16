@@ -141,7 +141,7 @@ PortSwigger Modules:  1 / 8  █░░░░░░░
 
 TryhackMe Modules:    2/22   █░░░░░░░░░░░░░░░░░░░░░
 
-riteups Published:   3 / 36 ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+Writeups Published:   3 / 36 ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
  
 ```
 
