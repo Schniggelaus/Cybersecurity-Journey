@@ -55,3 +55,9 @@ grep -R "searchterm" /etc/         # Recursively search all files in a directory
 | `>>` | Redirect output to a file (appends) | `echo "world" >> file.txt` |
 
 ---
+
+##Secure Shell Commands
+
+| Command | Description | Example
+|---------|-------------|--------|
+|`ssh` | Protocol to gain access on another device remotly | `ssh username@10.10.10.10`|
