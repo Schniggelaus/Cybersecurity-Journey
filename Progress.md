@@ -1,3 +1,9 @@
+## 16.06.2026
+- Went threw Course "Linux Fundamentals Part 2" on Tryhackme
+- Created new Writeups [LinuxFundamentals2](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/writeups/phase1/Tryhackme/LinuxFundamentals2.md)
+- Extended `[Cheatsheet for Linux](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/notes/cheatsheets/Linux.md)`
+
+
 ## 15.06.2026
 - Learned about DNS on Tryhackme Course: "How the Web Works"
 - Learned Basic Commands for Linus in the Course: "Linux Fundamentals Part 1" on Tryhackme
