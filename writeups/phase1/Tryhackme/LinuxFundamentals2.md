@@ -55,7 +55,8 @@
 
 # Common Examples
 
-|Symbolic | Numeric | Meaning |
+|Symbolic|Numeric|Meaning|
+|--------|-------|-------|
 | rwxr-xr-x | 755 | Owner can do anything, others can read and execute |
 | rw-r--r-- | 644 | Owner can read and write, others can only read |
 | rwx------ | 700 | Only the owner has access |
