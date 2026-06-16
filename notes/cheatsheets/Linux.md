@@ -9,7 +9,12 @@
 | `pwd` | Print current working directory path | `pwd` |
 | `ls` | List contents of a directory | `ls`, `ls -la` |
 | `cd` | Change directory | `cd /etc`, `cd ..` |
-
+| `touch` | Create file|`touch note`|
+|`mkdir`| Create a folder | `mkdir mydirectory` |
+|`cp` | Copy a file or folder | `cp note note 2` |
+|`mv` | Move a file or folder | `mv note2 note3`|
+|`rm` | Remove a file or folder | `rm mydirectory`|
+|`file` | Determime the type of a file | `file note`|
 ---
 
 ## File Operations
