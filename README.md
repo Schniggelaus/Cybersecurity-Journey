@@ -35,7 +35,7 @@ This repo documents everything: labs, writeups, tools I build, and the roadmap I
 | Area | Platform / Resource | Status |
 |---|---|---|
 | Linux Fundamentals | TryHackMe – Linux Fundamentals (1–3) | ✅ |
-| Network Basics | TryHackMe – Network Fundamentals | ⬜ |
+| Network Basics | TryHackMe – Network Fundamentals | ✅ |
 | Web Security – SQLi, XSS, IDOR | PortSwigger Web Academy | ⬜ |
 | Web Security – SSRF, XXE, Auth | PortSwigger Web Academy | ⬜ |
 | OWASP Top 10 | TryHackMe – OWASP Top 10 Room | ⬜ |
@@ -135,13 +135,13 @@ cybersecurity-journey/
 **Phase 1** — Week 1 of 12
 
 ```
-HTB Machines (Easy):  0 / 6  ░░░░░░
+HTB Machines (Easy):  0 / 6  █░░░░░
 
 PortSwigger Modules:  1 / 8  █░░░░░░░
 
-TryhackMe Modules:    4 / 22 ████░░░░░░░░░░░░░░░░░░
+TryhackMe Modules:    4 / 20 █████░░░░░░░░░░░░░░░
 
-Writeups Published:   5 / 36 █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+Writeups Published:   7 / 34 ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░
  
 ```
 
