@@ -147,6 +147,23 @@ Backs up the Documents folder every 12 hours.
 
 ---
 
+## Reconnaissance & Remote Access
+ 
+| Command | Description | Example |
+|---------|-------------|---------|
+| `ping` | Check if a host is reachable on the network | `ping 10.10.10.10` |
+| `nmap` | Scan a host for open ports and running services | `nmap 10.10.10.10` |
+| `telnet` | Connect to a remote host/service over an unencrypted connection | `telnet 10.10.10.10 23` |
+ 
+### `nmap` – Common Usage
+```bash
+nmap 10.10.10.10              # Basic scan of most common ports
+nmap -p- 10.10.10.10           # Scan all 65535 ports
+nmap -sV 10.10.10.10            # Detect service versions on open ports
+```
+
+---
+
 ## Shell Operators
 
 | Operator | Description | Example |
