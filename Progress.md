@@ -1,7 +1,7 @@
 ## 18.06.2026
 - Solved my first HTB "Moew"-Machine
 - Went threw Network Fundamentals on Tryhackme
-- Created Writeups for [What is Networking](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/Network%20Fundamentals/What_is_Networking.md)[Packets and Frames](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/Network%20Fundamentals/Packets_and_Frames.md)[Open Systems Internetconnection](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/Network%20Fundamentals/Open_Systems_Interconnection_Model.md)
+- Created Writeups for [What is Networking](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/Network%20Fundamentals/What_is_Networking.md),[Packets and Frames](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/Network%20Fundamentals/Packets_and_Frames.md),[Open Systems Internetconnection](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/Network%20Fundamentals/Open_Systems_Interconnection_Model.md)
 - Added Default Ports to [Cheatsheet for Linux](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Cheatsheets/Linux.md)
 
 
