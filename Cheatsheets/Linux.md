@@ -164,6 +164,18 @@ nmap -sV 10.10.10.10            # Detect service versions on open ports
 
 ---
 
+## Common Ports
+
+| Protocol | Port Number | Description|
+|----------|-------------|------------|
+|File Transfer Protocol (FTP)|21| File-sharing application build on client-server model -> it is possible to download files from|
+|SSH|22| Secure login to systems |
+|Telnet|23| interact with remote computers or network devices with TCP|
+|HTTP|80| Protocol used by WWW - Browser uses this to download text, images,...|
+|HTTPS|443| Same as HTTP, but more secure using encryption|
+|Server Message Block (SMB)|445| similar to FTP, SMB allows to share devices like printers|
+|Remote Desktop Protocol (RDP)|3389| Used to logging in to a system using a visual desktop interface|
+
 ## Shell Operators
 
 | Operator | Description | Example |
