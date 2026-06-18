@@ -7,7 +7,7 @@
 ## 16.06.2026
 - Went threw Course "Linux Fundamentals Part 2" and "Linux Fundamentals Part 3" on Tryhackme
 - Created new Writeups: [LinuxFundamentals2](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/LinuxFundamentals/%20Fundamental2.md) and  [LinuxFundamentals3](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/LinuxFundamentals/Fundamental3.md)
-- Extended [Cheatsheet for Linux](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/notes/Cheatsheets/Linux.md)
+- Extended [Cheatsheet for Linux](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Cheatsheets/Linux.md)
 
 
 ## 15.06.2026
