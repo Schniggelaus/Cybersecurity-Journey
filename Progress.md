@@ -6,7 +6,7 @@
 
 ## 16.06.2026
 - Went threw Course "Linux Fundamentals Part 2" and "Linux Fundamentals Part 3" on Tryhackme
-- Created new Writeups: [LinuxFundamentals2](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/writeups/phase1/Tryhackme/LinuxFundamentals/%20Fundamental2.md) and  [LinuxFundamentals3](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/writeups/phase1/Tryhackme/LinuxFundamentals/Fundamental3.md)
+- Created new Writeups: [LinuxFundamentals2](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/LinuxFundamentals/%20Fundamental2.md) and  [LinuxFundamentals3](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/LinuxFundamentals/Fundamental3.md)
 - Extended [Cheatsheet for Linux](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/notes/cheatsheets/Linux.md)
 
 
@@ -14,12 +14,12 @@
 - Learned about DNS on Tryhackme Course: "How the Web Works"
 - Learned Basic Commands for Linus in the Course: "Linux Fundamentals Part 1" on Tryhackme
 - New structured directory
-- Created new Writeups: [How The Web Works](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/writeups/phase1/Tryhackme/HowTheWebWorks.md), [LinuxFundamentals1](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/writeups/phase1/Tryhackme/LinuxFundamentals/Fundamental1.md) and started [Cheatsheet for Linux](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/notes/cheatsheets/Linux.md)
+- Created new Writeups: [How The Web Works](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/HowTheWebWorks.md), [LinuxFundamentals1](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/LinuxFundamentals/Fundamental1.md) and started [Cheatsheet for Linux](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/notes/cheatsheets/Linux.md)
   
   
 ## 14.06.2026
 - Learned about SQL Injection on portswigger
-- Created new Writeups for [SQL Injection](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/writeups/phase1/portswigger-SQLInjection.md)
+- Created new Writeups for [SQL Injection](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/portswigger-SQLInjection.md)
   
 ### Problems
 - Struggled with WAF bypass (Lab 3) → solved via XML encoding + Hackvertor
