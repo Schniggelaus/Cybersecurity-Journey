@@ -39,16 +39,19 @@ This indicates the root account had no password set at all, which is a critical 
 
 Once logged in as `root@meow`, i checked the current directory with `ls` and directly found flag.txt. 
 
-With cat i could read the file immediately and could solve the searched [flag]{https://labs.hackthebox.com/achievement/machine/3632952/394}. 
+With cat i could read the file immediately and could solve the searched flag. 
+
 
 ```bash
 cat flag.txt
 ```
 
+<img width="1349" height="170" alt="image" src="https://github.com/user-attachments/assets/53fee791-46cf-4c40-b0b3-c90c35d9040d" />
+
 ---
 
 ## Lessons Learned
 
-- An open Telnet port is a red flag in itself – it should generally be disabled in favor of SSH.
-- A root account without a password is one of the most critical misconfigurations possible, since it removes any barrier to full system compromise.
+- An open Telnet port is a red flag in itself – it should generally be disabled.
+- A root account without a password is one of the most critical misconfigurations possible.
 - This box demonstrates why even a single overlooked open port/service can lead to immediate, complete access.
