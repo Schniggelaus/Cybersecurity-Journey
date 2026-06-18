@@ -1,4 +1,4 @@
-##18.06.2026
+## 18.06.2026
 - Solved my first HTB "Moew"-Machine
 
 ## 17.06.2026
