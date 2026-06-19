@@ -166,6 +166,7 @@ Nmap is an open-source tool for network exploration, designed to rapidly scan la
 - IP subnet using `/`: `10.10.10.1/24` is equivalent to `10.10.10.0-255`
 - `-sn` — discover live hosts (no port scan)
 - `-sL` — list targets to scan (without actually scanning them)
+- `-Pn` — skip ping/host discovery; assume target is up (no ICMP/TCP ping)
 
 ### Port Scanning
 A network service is any process listening for incoming connections on a `TCP` or `UDP` port (common defaults: `TCP` `80`/`443`, `UDP` `53`). Scanning with `telnet` isn't very different from Nmap's connect scan — both just check whether a port responds.
