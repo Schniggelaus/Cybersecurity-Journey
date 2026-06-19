@@ -154,14 +154,67 @@ Backs up the Documents folder every 12 hours.
 | `ping` | Check if a host is reachable on the network | `ping 10.10.10.10` |
 | `nmap` | Scan a host for open ports and running services | `nmap 10.10.10.10` |
 | `telnet` | Connect to a remote host/service over an unencrypted connection | `telnet 10.10.10.10 23` |
- 
-### `nmap` – Common Usage
-```bash
-nmap 10.10.10.10              # Basic scan of most common ports
-nmap -p- 10.10.10.10           # Scan all 65535 ports
-nmap -sV 10.10.10.10            # Detect service versions on open ports
-```
 
+---
+
+## Nmap 
+ 
+Nmap is an open-source tool for network exploration, designed to rapidly scan large networks.
+ 
+### Host Discovery
+- IP range using `-`: `10.10.10.1-10` scans all addresses from `.1` to `.10`
+- IP subnet using `/`: `10.10.10.1/24` is equivalent to `10.10.10.0-255`
+- `-sn` — discover live hosts (no port scan)
+- `-sL` — list targets to scan (without actually scanning them)
+
+### Port Scanning
+A network service is any process listening for incoming connections on a `TCP` or `UDP` port (common defaults: `TCP` `80`/`443`, `UDP` `53`). Scanning with `telnet` isn't very different from Nmap's connect scan — both just check whether a port responds.
+ 
+| Flag | Description |
+|------|-------------|
+| `-sT` | Full TCP connect scan — completes the 3-way handshake |
+| `-sS` | "Stealth scan" — sends only a SYN packet, never completes the handshake, but still reveals open ports |
+| `-sU` | Scan `UDP` services |
+| `-F` | Scan the 100 most common ports |
+| `-p [range]` | Scan specific ports (e.g. `-p10-1024`, `-p-25` for ports 1–25) |
+| `-p-` | Scan all 65535 ports |
+ 
+### Version & OS Detection
+| Flag | Description |
+|------|-------------|
+| `-O` | Enable OS detection |
+| `-sV` | Detect service versions on open ports |
+| `-A` | Combines `-O`, `-sV`, and additional detection scripts |
+ 
+### Timing
+Scanning at normal speed can trigger an `IDS` (Intrusion Detection System). Nmap provides 6 timing templates, from `-T0` (slowest, most stealthy) to `-T5` (fastest, most detectable).
+ 
+| Template | Name | Notes |
+|----------|------|-------|
+| `-T0` | Paranoid | Extremely slow, used for IDS evasion |
+| `-T1` | Sneaky | Very slow |
+| `-T2` | Polite | Slower than normal, less network load |
+| `-T3` | Normal | Default speed |
+| `-T4` | Aggressive | Fast — common choice for labs/CTFs |
+| `-T5` | Insane | Fastest, very easy to detect |
+ 
+- The faster the template, the higher the risk of detection by an IDS
+- `--host-timeout` — set the max time to wait for a single target host
+  
+### Verbosity & Debugging
+| Flag | Description |
+|------|-------------|
+| `-v` | Show live scan progress (`-vv`, `-vvvv` = more detail) |
+| `-d` | Enable debugging info (`-dd`, `-ddd` = more detail) |
+ 
+### Saving Output
+| Flag | Description |
+|------|-------------|
+| `-oN <file>` | Normal output |
+| `-oX <file>` | XML output |
+| `-oG <file>` | Grep-able output |
+| `-oA <file>` | All major formats at once |
+ 
 ---
 
 ## Common Ports
