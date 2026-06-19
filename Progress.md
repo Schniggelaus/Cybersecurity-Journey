@@ -1,6 +1,13 @@
+##19.06.2026
+- Went threw `Nmap The Basics` and `Nmap` on Tryhackme
+- Created Writeups for [Nmap](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/Network%20Fundamentals/Nmap.md)
+- Added Nmap commands to [Cheatsheet for Linux](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Cheatsheets/Linux.md) 
+
+
+
 ## 18.06.2026
 - Solved my first HTB "Moew"-Machine
-- Went threw Network Fundamentals on Tryhackme
+- Went threw "Network Fundamentals" on Tryhackme
 - Created Writeups for [What is Networking](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/Network%20Fundamentals/What_is_Networking.md),[Packets and Frames](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/Network%20Fundamentals/Packets_and_Frames.md) and [Open Systems Internetconnection](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/Network%20Fundamentals/Open_Systems_Interconnection_Model.md)
 - Added Default Ports to [Cheatsheet for Linux](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Cheatsheets/Linux.md)
 
