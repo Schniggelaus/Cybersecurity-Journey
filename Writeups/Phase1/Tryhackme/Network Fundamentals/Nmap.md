@@ -25,6 +25,9 @@ Nmap can be used to discover live hosts connected to the network
   - `sU` scans `UDP`-services
   - `-F` scans 100 most common ports
   - `p[range]` scans specific ports (i.e. `-p10-1024` scans port 10-1024, `-p-25` scans port 1-25
+  - `-Pn` ignores host detection and handels every target like it would be online
+    - `nmap`usually uses pings to declare if host is up or not
+    - Really good when `ping` command is blocked cause of firewalls or if the host is ignoring `ICMP`
 
 ## Version Detection
 
