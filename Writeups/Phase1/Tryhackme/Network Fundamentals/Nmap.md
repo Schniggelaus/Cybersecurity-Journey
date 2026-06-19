@@ -21,7 +21,7 @@ Nmap can be used to discover live hosts connected to the network
 - Scanning network services on live hosts with `telnet` -> not very different from `Nmaps`connect scan
 -  Network service = any process listening for incoming connections on `TCP` or `UDP` port (Default `TCP`: `80` or `443`, `UDP`: `53`)
   - `-sT` performs full  TCP connect scan with trying to complete 3-way handshake
-  - `-sS` only sends TCP SY packet's -> "stealth attack" because 3-way handshake is never completed but we see what address answered
+  - `-sS` only sends TCP SYN packet's -> "stealth attack" because 3-way handshake is never completed but we see what address answered
   - `sU` scans `UDP`-services
   - `-F` scans 100 most common ports
   - `p[range]` scans specific ports (i.e. `-p10-1024` scans port 10-1024, `-p-25` scans port 1-25
@@ -52,3 +52,25 @@ Nmap can be used to discover live hosts connected to the network
 - `-oX <filename>` : XML output
 - `-oG <filename>` : `grep`-able output
 - `-oA <filename>` : output in all major formats
+
+## NSE Scripts
+
+- `NSE` (Nmap Scripting Engine) is a powerful addition to Nmap
+- Scripts are written in Lua
+- Extending Nmap with i.e. scanning for vulnerabilities, automating exploits+
+- Many categories available:
+|Category| Description|
+|--------|------------|
+|`safe`| Won't affect the target|
+|`intrusive`|Likely to affect the target|
+|`vuln`|Scans for vulnerabilities|
+|`exploit`|Attempt to exploit a vulnerability|
+|`auth`|Attempt to bypass authentication for running services|
+|`brute`|Attempt to bruteforce credentials|
+|`discovery`|Attempt to query running services for further infos about the network|
+
+- `--script=<script-name>` to run a script
+- With seperating `,`, it is possible to run multiple scripts simultaneously
+- Some Scripts require arguments. They can be given with `--script-args`
+
+[NSE Nmap Scripting Engine libary](https://nmap.org/nsedoc/)
