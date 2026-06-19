@@ -1,6 +1,7 @@
 ##19.06.2026
 - Went threw `Nmap The Basics` and `Nmap` on Tryhackme
-- Created Writeups for [Nmap](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/Network%20Fundamentals/Nmap.md)
+  -`Nmap The Basics`was more of a Basic introduction and low amount of practice, while `Nmap`- Room had more examples , added scripts and focused on the issue that firewwalls are blocking incoming connection
+- Created Writeup for [Nmap](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/Network%20Fundamentals/Nmap.md)
 - Added Nmap commands to [Cheatsheet for Linux](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Cheatsheets/Linux.md) 
 
 
