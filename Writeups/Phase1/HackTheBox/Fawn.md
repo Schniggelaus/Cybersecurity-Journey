@@ -45,3 +45,4 @@ Then read the file locally:
 - FTP (port 21) is largely legacy at this point – in modern environments it's usually replaced by SFTP, which runs over SSH and encrypts the connection. Seeing plain FTP open is already a sign of an older or intentionally vulnerable setup.
 - Anonymous FTP login is a classic misconfiguration check – always worth trying before assuming credentials are needed.
 - `nmap -O` requires root/sudo privileges.
+<img width="1419" height="209" alt="image" src="https://github.com/user-attachments/assets/593374bf-5219-42ec-857c-5b0c2a6fffe1" />
