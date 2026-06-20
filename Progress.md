@@ -1,5 +1,5 @@
 ## 20.06.2026
-- Finished HTB Machines [Fawn](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/HackTheBox/Fawn.md) and [Dancing](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/HackTheBox/Dancing.md)
+- Finished HTB Machines [Fawn](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/HackTheBox/Fawn.md) and [Dancing](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/HackTheBox/Dancing.md) - focused on FTP and SMB
 - Created Writeups for the 2 Machines
 
 ## 19.06.2026
