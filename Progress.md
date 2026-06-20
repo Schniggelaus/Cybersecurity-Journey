@@ -1,4 +1,4 @@
-##20.06.2026
+## 20.06.2026
 - Finished HTB Machines [Fawn](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/HackTheBox/Fawn.md) and [Dancing](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/HackTheBox/Dancing.md)
 - Created Writeups for the 2 Machines
 
