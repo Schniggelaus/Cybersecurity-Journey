@@ -77,5 +77,5 @@ Then read it locally:
 - Share names ending in `$` are hidden, not protected 
 - Default Windows admin shares (`ADMIN$`, `C$`, `IPC$`) often exist on Windows hosts but typically require proper credentials/permissions to actually read content from, even if you can technically "connect."
 - Always test empty/blank passwords and anonymous logins as a first step before assuming credentials are required – it's a common misconfiguration on intentionally vulnerable or poorly secured machines.
-- <img width="1373" height="205" alt="image" src="https://github.com/user-attachments/assets/e8cc3965-5f44-4db7-ae71-8f037fe4469f" />
+ <img width="1373" height="205" alt="image" src="https://github.com/user-attachments/assets/e8cc3965-5f44-4db7-ae71-8f037fe4469f" />
 
