@@ -1,9 +1,8 @@
-## Reconnaissance
  
 Started with a port scan, including OS detection and service version detection, to get as much information as possible right away.
  
 
-`sudo nmap -O -sV -vv 10.10.10.10`
+`sudo nmap -O -sV -vv taget_ip_address`
  
 - `-O` → enables OS detection
 - `-sV` → detects service versions on open ports
