@@ -1,4 +1,8 @@
-##19.06.2026
+##20.06.2026
+- Finished HTB Machines [Fawn](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/HackTheBox/Fawn.md) and [Dancing](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/HackTheBox/Dancing.md)
+- Created Writeups for the 2 Machines
+
+## 19.06.2026
 - Went threw `Nmap The Basics` and `Nmap` on Tryhackme
   - `Nmap The Basics`was more of a Basic introduction and low amount of practice, while `Nmap`- Room had more examples , added scripts and focused on the issue that firewwalls are blocking incoming connection
 - Created Writeup for [Nmap](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/Network%20Fundamentals/Nmap.md)
