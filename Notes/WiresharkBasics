@@ -1,0 +1,31 @@
+# Wireshark – The Basics
+
+## What is Wireshark?
+- Open-source network packet analyser (packet sniffer)
+- Used to capture live network traffic or inspect saved captures (PCAP files)
+- Commonly used for network troubleshooting, protocol analysis, and security investigations
+
+---
+
+## PCAP Files
+- **PCAP** (Packet Capture) = a saved file containing recorded network traffic
+- Can be opened in Wireshark for offline analysis
+- Common file extensions: `.pcap`, `.pcapng`
+
+---
+
+## UI – The 3 Main Panels
+
+| Panel | Description |
+|-------|-------------|
+| **Packet List** (top) | Overview of all captured packets – shows timestamp, source/destination IP, protocol, info |
+| **Packet Details** (middle) | Breakdown of the selected packet layer by layer (Ethernet → IP → TCP → Application) |
+| **Packet Bytes** (bottom) | Raw hex and ASCII representation of the selected packet |
+
+---
+
+## Packet Dissection
+- Wireshark breaks each packet down into its individual protocol layers
+- Follows the OSI/TCP-IP model from bottom (Physical/Data Link) to top (Application)
+- Allows inspection of each layer's headers and payload separately
+- Useful for identifying exactly where in the stack something is happening (e.g. malformed TCP header, suspicious HTTP payload)
