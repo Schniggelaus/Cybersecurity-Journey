@@ -5,7 +5,7 @@ Wireshark is used to capture Network-traffic.
 |Operator | Definition|
 |---------|-----------|
 |`and` or `&&`|and|
-|`or` or `||`|or|
+|`or` or `\|\|`|or|
 |`eq` or `==`|equal|
 |`ne` or `!=`|not equal|
 |`gt` or `>`|greater than|
