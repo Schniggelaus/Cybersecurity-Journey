@@ -1,3 +1,7 @@
+## 22.06.2026
+- Went threw [Wireshark Basics](https://tryhackme.com/room/wiresharkthebasics) and another Room regarding [Wireshark](https://tryhackme.com/room/wireshark) on Tryhackme
+- No writeup created because it is more interaction with a UI - Created a [Note](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Notes/WiresharkBasics) and added a [Cheatsheet for Wireshark](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Cheatsheets/Wireshark.md)
+
 ## 21.06.2026
 - Break day
 
