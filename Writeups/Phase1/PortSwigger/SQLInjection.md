@@ -280,8 +280,28 @@ Finally: Administrator has a password column with the correct password stored. B
 
 ### Key Takeaways
  
-- Thanks to `information_schema` it is possible to recieve table and column names 
+- Thanks to `information_schema` it is possible to recieve table and column names
 
+---
+
+On Oracle, same information can be found but has different Syntax:
+- List all tables by querying `all_tables`
+```
+SELECT * FROM all_tables
+```
+- List all columns by querying `all_tab_columns`
+```
+SELECT * FROM all_tab_columns WHERE table_name = 'USERS'
+
+```
+
+
+
+## Lab 7 – SQL injection attack, listing the database contents on Oracle
+ 
+**Goal:** Recieve the username and passwords of all users and log in as administrator afterwards.
+ 
+Basically the same as Lab 6, but with the new Syntax for Oracle
 
 
 *Source: [PortSwigger Web Academy – SQL Injection](https://portswigger.net/web-security/sql-injection)*
