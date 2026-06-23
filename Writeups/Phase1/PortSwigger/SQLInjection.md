@@ -146,6 +146,53 @@ To exploit SQL injection vulnerabilities, it is necessary to find information ab
 |Oracle| SELECT * FROM v$version|
 |PostgreSQL | SELECT version()|
 
-## Lab4 SQL injection attack, querying the database type and version on Oracle
+## Lab 4 – Querying Database Type and Version on Oracle
+
+**Goal:** Determine the database version running on the target Oracle database.
+
+### What's happening under the hood
+
+To extract data via a UNION attack, two things need to be true:
+1. We need to know how many columns the original query returns
+2. Those columns need to accept string data
+
+Oracle also requires that every `SELECT` statement references a table – unlike MySQL/PostgreSQL where you can do `SELECT 'a','b'` directly. Oracle's workaround is the **dual** table: a built-in dummy table that always exists and returns exactly one row.
+
+### Solution
+
+**Step 1 – Determine column count using Burp Suite Repeater**
+
+Intercept a category filter request and send it to Repeater. Test with increasing string values using `dual`:
+
+```sql
+' UNION SELECT 'a','b' FROM dual--
+```
+
+No error → the query returns **2 columns**, both accepting strings.
+
+**Step 2 – Extract the version**
+ 
+`v$version` is an Oracle system view containing database version info. The `BANNER` column returns the full version string. In URL-based injection, spaces must be replaced with `+`:
+ 
+```
+GET /filter?category=Corporate+gifts'+UNION+SELECT+BANNER,+'test'+FROM+v$version-- HTTP/2
+```
+ 
+Which translates to:
+```sql
+' UNION SELECT BANNER,'test' FROM v$version--
+```
+ 
+The response returns the full Oracle version string in the product listing → lab solved.
+
+### Key Takeaway
+- **`dual` table:** Oracle always requires a `FROM` clause – `dual` is the go-to dummy table when you don't need real data
+- **`v$version.BANNER`** returns the full version string. `v$instance.VERSION` only returns the short number (e.g. `19.0.0.0.0`) – not enough for this lab
+- **URL spaces:** In URL-based payloads, spaces must be written as `+`, otherwise the query breaks
+- **BANNER caps:** Oracle column names are case-insensitive – `BANNER`, `banner`, and `Banner` all work. Caps is just convention
+---
+
+
+
 
 *Source: [PortSwigger Web Academy – SQL Injection](https://portswigger.net/web-security/sql-injection)*
