@@ -110,22 +110,22 @@ This repo documents everything: labs, writeups, tools I build, and the roadmap I
 ```
 cybersecurity-journey/
 ├── README.md
-├── writeups/
-│   ├── phase1/
-│   │   ├── portswigger-SQLInjection.md
+├── Writeups/
+│   ├── Phase1/
+│   │   ├── Portswigger-SQLInjection.md
 │   │   └── ...
-│   └── phase2/
-├── tools/
-│   └── recon/
-│       ├── recon.py
-│       └── README.md
-├── notes/
-│   ├── cheatsheets/
-│   │   ├── nmap.md
-│   │   ├── privesc-linux.md
-│   │   └── ...
-│   └── phase1-lab-notes.md
-└── resources.md
+│   └── Phase2/
+├── Tools/
+│    ├── Recon/
+│       └── ...
+├── Notes/
+│   ├── WiresharkBasics
+│   └── ...
+├── Cheatsheets
+|   ├── Linux.md
+|   └── ....  
+└──
+
 ```
 
 ---
@@ -135,13 +135,13 @@ cybersecurity-journey/
 **Phase 1** — Week 1 of 12
 
 ```
-HTB Machines (Easy):  0 / 6  █░░░░░
+HTB Machines (Easy):  1 / 6  █░░░░░
 
 PortSwigger Modules:  1 / 8  █░░░░░░░
 
-TryhackMe Modules:    4 / 20 █████░░░░░░░░░░░░░░░
+TryhackMe Modules:    5 / 20 ██████░░░░░░░░░░░░░░
 
-Writeups Published:   7 / 34 ███████░░░░░░░░░░░░░░░░░░░░░░░░░░░
+Writeups Published:   8 / 34 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░
  
 ```
 
