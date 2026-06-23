@@ -140,4 +140,12 @@ To exploit SQL injection vulnerabilities, it is necessary to find information ab
 
 **Version**
 
+|Database tpye | Query |
+|--------------|-------|
+|Microsoft, MySQL|`SELECT @@version|
+|Oracle| SELECT * FROM v$version|
+|PostgreSQL | SELECT version()|
+
+## Lab4 SQL injection attack, querying the database type and version on Oracle
+
 *Source: [PortSwigger Web Academy – SQL Injection](https://portswigger.net/web-security/sql-injection)*
