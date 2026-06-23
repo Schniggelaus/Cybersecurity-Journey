@@ -192,7 +192,41 @@ The response returns the full Oracle version string in the product listing → l
 - **BANNER caps:** Oracle column names are case-insensitive – `BANNER`, `banner`, and `Banner` all work. Caps is just convention
 ---
 
-
+## Lab 5 – Querying Database Type and Version on MySQL and Microsoft
+ 
+**Goal:** Determine the database version running on the target MySQL/Microsoft database.
+ 
+### What's happening under the hood
+ 
+Same approach as Lab 4 – UNION attack to extract version info. Two key differences from Oracle:
+ 
+1. No `FROM dual` needed – MySQL and MSSQL don't require a table reference in `SELECT`
+2. Comment syntax is different – `#` is used instead of `--` for URL-based payloads in MySQL
+### Solution
+ 
+**Step 1 – Determine column count using Burp Suite Repeater**
+ 
+Intercept a category filter request and send it to Repeater. Test directly with string values – no `FROM dual` needed:
+ 
+```
+'+UNION+SELECT+'a','b'#
+```
+ 
+No error → the query returns **2 columns**, both accepting strings.
+ 
+**Step 2 – Extract the version**
+ 
+```
+'+UNION+SELECT+@@version,NULL#
+```
+ 
+The response returns the full version string in the product listing → lab solved.
+ 
+### Key Takeaways
+ 
+- **No `FROM dual`:** Unlike Oracle, MySQL and MSSQL don't require a table reference – `UNION SELECT 'a','b'` works directly
+- **`#` vs `--` for comments:** Both work in MySQL, but `--` requires a trailing space (`-- `) to be valid.
+- **`@@version`** works for both MySQL and MSSQL – same payload, different from Oracle's `BANNER FROM v$version`
 
 
 *Source: [PortSwigger Web Academy – SQL Injection](https://portswigger.net/web-security/sql-injection)*
