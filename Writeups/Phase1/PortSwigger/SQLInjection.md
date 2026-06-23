@@ -134,4 +134,10 @@ The `||` operator concatenates username and password with `~` as separator so we
 
 ---
 
+## Examining the database in SQL injection attacks
+
+To exploit SQL injection vulnerabilities, it is necessary to find information about the database type, version and tables and columns the database has.
+
+**Version**
+
 *Source: [PortSwigger Web Academy – SQL Injection](https://portswigger.net/web-security/sql-injection)*
