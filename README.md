@@ -38,7 +38,7 @@ This repo documents everything: labs, writeups, tools I build, and the roadmap I
 | Network Basics | TryHackMe – Network Fundamentals | ✅ |
 | Web Security – SQLi, XSS, IDOR | PortSwigger Web Academy | ⬜ |
 | Web Security – SSRF, XXE, Auth | PortSwigger Web Academy | ⬜ |
-| OWASP Top 10 | TryHackMe – OWASP Top 10 Room | ⬜ |
+| OWASP Top 10 | TryHackMe – OWASP Top 10 Room | ✅ |
 | Privilege Escalation | TryHackMe – Linux + Windows PrivEsc | ⬜ |
 | Active Directory Basics | TryHackMe – AD Rooms | ⬜ |
 | Practical Hacking | Hack The Box – Starting Point + Easy Machines | ⬜ |
@@ -132,7 +132,10 @@ cybersecurity-journey/
 
 ## 📊 Progress Tracker
 
-**Phase 1** — Week 1 of 12
+**Phase 1** — Week 2 of 12
+
+
+**paused Progress Tracker due to unsufficient information on how much Modules/Writeups there will be proceeded**
 
 ```
 HTB Machines (Easy):  1 / 6  █░░░░░
