@@ -304,4 +304,4 @@ SELECT * FROM all_tab_columns WHERE table_name = 'USERS'
 Basically the same as Lab 6, but with the new Syntax for Oracle
 
 
-*Source: [PortSwigger Web Academy – SQL Injection](https://portswigger.net/web-security/sql-injection)*
+
