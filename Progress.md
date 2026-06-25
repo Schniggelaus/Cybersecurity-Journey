@@ -1,3 +1,7 @@
+## 25.06.2606
+- Went threw all 3 [OWASP courses](https://tryhackme.com/module/owasp-top-10-2025) on Tryhackme
+- Created Writeups for all [OWASP Top 10 Incidents](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/OWASP%20Top%2010.md
+  
 ## 24.06.2026
 - Break day
   
