@@ -59,4 +59,3 @@ Wireshark is used to capture and analyse network traffic.
 
 ---
 
-*Extended as new protocols and filters are encountered.*
