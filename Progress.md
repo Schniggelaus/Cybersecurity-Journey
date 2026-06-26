@@ -3,6 +3,9 @@
 - Learned how XSS is working, how to detect and how to prevent
 - Created a Writeup [XSS](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/PortSwigger/XSS.md)
 - Completed Lab 1 + Lab 2 on Portswigger regarding XSS
+- Continued HTB [Starting Point](https://app.hackthebox.com/starting-point) - No Writeups created due to Off-topics
+- Finished HTB [Appointment](https://app.hackthebox.com/machines/Appointment?sort_by=created_at&sort_type=desc)
+  - No separate write-up created – concepts covered [here](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/PortSwigger/SQLInjection.md) in Lab 2 
 
 ## 25.06.2026
 - Went threw all 3 [OWASP courses](https://tryhackme.com/module/owasp-top-10-2025) on Tryhackme
