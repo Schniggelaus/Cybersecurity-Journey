@@ -304,4 +304,9 @@ SELECT * FROM all_tab_columns WHERE table_name = 'USERS'
 Basically the same as Lab 6, but with the new Syntax for Oracle
 
 
+## HTB Appointment
+- Applied SQLi login bypass (admin' OR 1=1#) on a real HTB machine.
+- Port 80 (HTTP) → login form → MySQL comment bypass with #.
+- No separate write-up created – concepts covered in Lab 2 
+
 
