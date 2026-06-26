@@ -1,4 +1,10 @@
-## 25.06.2606
+## 26.06.2026
+
+- Learned how XSS is working, how to detect and how to prevent
+- Created a Writeup [XSS](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/PortSwigger/XSS.md)
+- Completed Lab 1 + Lab 2 on Portswigger regarding XSS
+
+## 25.06.2026
 - Went threw all 3 [OWASP courses](https://tryhackme.com/module/owasp-top-10-2025) on Tryhackme
 - Created Writeups for all [OWASP Top 10 Incidents](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/OWASP%20Top%2010.md
   
