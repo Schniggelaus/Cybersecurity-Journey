@@ -307,6 +307,20 @@ Basically the same as Lab 6, but with the new Syntax for Oracle
 ## HTB Appointment
 - Applied SQLi login bypass (admin' OR 1=1#) on a real HTB machine.
 - Port 80 (HTTP) → login form → MySQL comment bypass with #.
-- No separate write-up created – concepts covered in Lab 2 
+- No separate write-up created – concepts covered in Lab 2
+
+<img width="1294" height="176" alt="image" src="https://github.com/user-attachments/assets/cb669f2f-d3b8-4819-8cff-a9b0aa9f2eca" />
+
+
+## HTB – Sequel
+ 
+Applied MySQL CLI basics on a real HTB machine. No separate write-up created.
+ 
+**Summary:**
+- nmap found port **3306** (MySQL/MariaDB)
+- Logged in as `root` without password: `mysql -u root -h Machine_IP -P 3306`
+- Found unique database `htb` alongside the three default MySQL databases
+- Located flag in table `config` using `DESCRIBE` and `SELECT * FROM config`
+<img width="1242" height="152" alt="image" src="https://github.com/user-attachments/assets/69f35d54-b54a-4257-b517-27696b4bf880" />
 
 
