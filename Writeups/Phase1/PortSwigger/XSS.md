@@ -43,6 +43,8 @@ https://insecure-website.com/status?message=<script>/*+Bad+stuff+here...+*/</scr
 
 - Arises on applications containing client-side JavaScript that processes data from untrusted sources in unsafe way
   - Usually writes data back to the DOM
+- Usually JS takes data from attacker-controllable source and passes it to a sink that supports dynamic code execution, such as `innerHTML` -> Attacker construct a link with a payload and send it to a victim
+- Most common source is the URL which is accessed with the `window.location`
  - Example:
 
    ```
@@ -68,6 +70,7 @@ You searched for: <img src=1 onerror='/* Bad stuff here... */'>
 
 ## How to find and test for XSS vulnerabilities
 
+- Use `Burp Suite's web vulnerability scanner`
 - **Test every entry point** - Test every entry point for data within the applications HTTP requests including parameters within the URL query string, message body, URL file path, HTTP headers,...
 - **Submit random alphanumeric values** - Use `Burp Intruder's number payloads` (randomly generated hex values) or `Burp Intruder's grep payloads settings` ( automatically flag responses that contain submitted value)
 - **Determine the reflection context** - Each location within the response where the value is reflected, determine its context (between HTML tags? within a tag attribute?,...)
@@ -110,4 +113,20 @@ Step 1:
 - Comment: `<script>alert("test")</script>` , fill in the missing gaps and post the Comment
 - After reloading the page the payload will execute and the Lab is solved
 
+## Lab3 DOM XSS in document.write sink using source location.search
+
+- Goal ist to upload a JS payload to the DOM
+
+Step 1:
+- Analyze the source code and search for an alphanumeric object in the serach bar
+- Realize how the HTML is changing
+
+Step 2:
+- In this case it seems that the alphanumeric object is getting parsed in an `img tag`
+- This can be abused by intentionally closing the `img tag` and add the payload afterwards:
+```
+"><script>alert("payload uploaded")</script>
+```
+- Searching for this will solve the Lab.
+- Successfully uploaded a working JS payload to the DOM 
   
