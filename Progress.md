@@ -1,3 +1,9 @@
+## 27.06.2026
+
+- Finished XSS DOM-attacks + [Labs](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/PortSwigger/XSS.md)
+- Introduced myself to DVWA
+  
+
 ## 26.06.2026
 
 - Learned how XSS is working, how to detect and how to prevent
