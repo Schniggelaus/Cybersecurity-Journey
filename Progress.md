@@ -1,3 +1,9 @@
+##28.06.2026
+
+- Introduced myself to [Authentication-Topic](https://portswigger.net/web-security/authentication) on Portswigger
+- Solved Lab 1-3 regarding Brute-forcing
+- Created a Writeup for [Authentication-Topic](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/PortSwigger/Authentication.md)
+
 ## 27.06.2026
 
 - Finished XSS DOM-attacks + [Labs](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/PortSwigger/XSS.md)
