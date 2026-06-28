@@ -1,4 +1,4 @@
-##28.06.2026
+## 28.06.2026
 
 - Introduced myself to [Authentication-Topic](https://portswigger.net/web-security/authentication) on Portswigger
 - Solved Lab 1-3 regarding Brute-forcing
