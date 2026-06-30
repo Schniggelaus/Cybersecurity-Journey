@@ -1,3 +1,9 @@
+## 30.06.2026
+- Break day
+
+## 29.06.2026
+- Break day
+
 ## 28.06.2026
 
 - Introduced myself to [Authentication-Topic](https://portswigger.net/web-security/authentication) on Portswigger
