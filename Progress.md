@@ -1,3 +1,9 @@
+## 01.07.2026
+- Went threw another Authentication topic on [Tryhackme](https://tryhackme.com/room/brokenauthentication) and introduced me to [IDOR topic](https://tryhackme.com/room/idor)
+- Created Writeup for [Authentication Lab](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/IDOR.md)
+- Created Writeups for [IDOR Lab](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/IDOR.md)
+
+
 ## 30.06.2026
 - Break day
 
