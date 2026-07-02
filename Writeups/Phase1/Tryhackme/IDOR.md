@@ -32,3 +32,22 @@
   2. Log into acc1 and record identifiers
   3. Log into acc2 and substitute acc1 identifiers into acc2
 --> If server returns acc1 data to acc2, Server is vulnerable
+
+
+---
+
+**PORTSWIGGER** [IDOR-Course](https://portswigger.net/web-security/access-control/idor)
+
+- No new informations
+
+Lab1: Insecure direct object references
+
+Goal: Chat with the Chatbot and get the password of the `user`: `carlos`
+
+Step 1: Open chat and type anyhthing
+Step 2: Download the transcript
+Step 3: Noticing that the first downloaded transcript starts with the number "2" (Filename: `2.txt`) there could be a `1.txt`-file
+Step 4: Interrupt the traffic with Burp Suite where HTTP requests the script -> send it to the repeater and change the document name 
+Step 5: After successfully recieving the `1.txt`-file, the password is written down in the chat and log in data can be used to log in 
+
+--> Lab solved
