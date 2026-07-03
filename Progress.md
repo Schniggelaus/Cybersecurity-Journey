@@ -1,4 +1,4 @@
-#ä 03.07.2026
+## 03.07.2026
 - Went threw Portswigger Courses: [File path traversal](https://portswigger.net/web-security/file-path-traversal#what-is-path-traversal) and [File upload vulnerability](https://portswigger.net/web-security/file-upload#what-are-file-upload-vulnerabilities) until Lab 3
 - Writeup created for [File path traversal](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/PortSwigger/Path%20traversal.md) and [File upload vulnerability](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/PortSwigger/File%20Upload%20vuln.md)
 - Read the rest of the File upload vulnerability chapters, but did not writeup since Labs would be too highclass for now
