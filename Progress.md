@@ -1,3 +1,8 @@
+#ä 03.07.2026
+- Went threw Portswigger Courses: [File path traversal](https://portswigger.net/web-security/file-path-traversal#what-is-path-traversal) and [File upload vulnerability](https://portswigger.net/web-security/file-upload#what-are-file-upload-vulnerabilities) until Lab 3
+- Writeup created for [File path traversal](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/PortSwigger/Path%20traversal.md) and [File upload vulnerability](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/PortSwigger/File%20Upload%20vuln.md)
+- Read the rest of the File upload vulnerability chapters, but did not writeup since Labs would be too highclass for now
+
 ## 02.07.2026
 - Deepend the knowledge in IDOR with extra Labs from [Portswigger](https://portswigger.net/web-security/access-control/idor) - Notes are under Tryhackme [IDOR.md](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/IDOR.md)
 
