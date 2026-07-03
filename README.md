@@ -38,7 +38,7 @@ This repo documents everything: labs, writeups, tools I build, and the roadmap I
 | Network Basics | TryHackMe – Network Fundamentals | ✅ |
 | Web Security – SQLi✅, XSS✅, IDOR | PortSwigger Web Academy | ⬜ |
 | Web Security – SSRF, XXE, Auth✅ | PortSwigger Web Academy | ⬜ |
-| Web Security - Path traversal✅ , File Upload vulnerability ✅ | ✅ | 
+| Web Security - Path traversal✅ , File Upload vulnerability ✅ | PortSwigger Web Academy | ✅ | 
 | OWASP Top 10 | TryHackMe – OWASP Top 10 Room | ✅ |
 | Privilege Escalation | TryHackMe – Linux + Windows PrivEsc | ⬜ |
 | Active Directory Basics | TryHackMe – AD Rooms | ⬜ |
