@@ -36,13 +36,14 @@ This repo documents everything: labs, writeups, tools I build, and the roadmap I
 |---|---|---|
 | Linux Fundamentals | TryHackMe – Linux Fundamentals (1–3) | ✅ |
 | Network Basics | TryHackMe – Network Fundamentals | ✅ |
-| Web Security – SQLi, XSS, IDOR | PortSwigger Web Academy | ⬜ |
-| Web Security – SSRF, XXE, Auth | PortSwigger Web Academy | ⬜ |
+| Web Security – SQLi✅, XSS✅, IDOR | PortSwigger Web Academy | ⬜ |
+| Web Security – SSRF, XXE, Auth✅ | PortSwigger Web Academy | ⬜ |
+| Web Security - Path traversal✅ , File Upload vulnerability ✅ | ✅ | 
 | OWASP Top 10 | TryHackMe – OWASP Top 10 Room | ✅ |
 | Privilege Escalation | TryHackMe – Linux + Windows PrivEsc | ⬜ |
 | Active Directory Basics | TryHackMe – AD Rooms | ⬜ |
 | Practical Hacking | Hack The Box – Starting Point + Easy Machines | ⬜ |
-| Tooling | Burp Suite, Nmap, Gobuster, Wireshark | ⬜ |
+| Tooling | Burp Suite✅, Nmap✅, Gobuster, Wireshark✅ | ⬜ |
 | Own Tool | Python Recon Script (subfinder + nmap + HTML report) | ⬜ |
 
 ### Phase 1 Milestone
@@ -65,13 +66,13 @@ This repo documents everything: labs, writeups, tools I build, and the roadmap I
 - PortSwigger Advanced Labs (Deserialization, HTTP Smuggling, OAuth)
 - Cloud Security Basics (AWS misconfigs via CloudGoat)
 
-### Monetization Targets (Phase 2)
+### Targets (Phase 2)
 
-| Channel | Realistic Expectation | Notes |
-|---|---|---|
-| Bug Bounty (HackerOne) | $0–500 total | Low/Medium findings, no guarantee |
-| Fiverr Micro-Gigs | 30–100 € per gig | Security review |
-| Freelance (direct) | 0–1 projects | Via network, needs portfolio first |
+| Channel | Notes |
+|---|---|
+| Bug Bounty (HackerOne) | Low/Medium findings, no guarantee |
+| Fiverr Micro-Gigs | Security review |
+| Freelance (direct) | Via network, needs portfolio first |
 
 
 ---
@@ -87,15 +88,7 @@ This repo documents everything: labs, writeups, tools I build, and the roadmap I
 - LinkedIn network building in the DACH InfoSec community
 - First proper pentest engagement (small scope, startup or SMB)
 
-### Income Targets
 
-| Channel | Target (monthly) |
-|---|---|
-| Bug Bounty | 200–500 € |
-| Freelance Pentesting | 300–1000 € |
-| **Total** | **500–1500 €/month** |
-
----
 
 ## 🛠️ Tools & Repos
 
@@ -126,26 +119,6 @@ cybersecurity-journey/
 |   └── ....  
 └──
 
-```
-
----
-
-## 📊 Progress Tracker
-
-**Phase 1** — Week 2 of 12
-
-
-**paused Progress Tracker due to unsufficient information on how much Modules/Writeups there will be proceeded**
-
-```
-HTB Machines (Easy):  1 / 6  █░░░░░
-
-PortSwigger Modules:  1 / 8  █░░░░░░░
-
-TryhackMe Modules:    5 / 20 ██████░░░░░░░░░░░░░░
-
-Writeups Published:   8 / 34 ████████░░░░░░░░░░░░░░░░░░░░░░░░░░
- 
 ```
 
 ---
