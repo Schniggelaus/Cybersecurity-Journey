@@ -1,3 +1,7 @@
+## 04.07.2026
+- Went threw TryHackMe Course [Walking An Application](https://tryhackme.com/room/walkinganapplication)
+- Created short Writeup since it was just basic repetition of what i already learned but more deeper 
+
 ## 03.07.2026
 - Went threw Portswigger Courses: [File path traversal](https://portswigger.net/web-security/file-path-traversal#what-is-path-traversal) and [File upload vulnerability](https://portswigger.net/web-security/file-upload#what-are-file-upload-vulnerabilities) until Lab 3
 - Writeup created for [File path traversal](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/PortSwigger/Path%20traversal.md) and [File upload vulnerability](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/PortSwigger/File%20Upload%20vuln.md)
