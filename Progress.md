@@ -1,3 +1,6 @@
+## 05.07.2026
+- Break day
+
 ## 04.07.2026
 - Went threw TryHackMe Course [Walking An Application](https://tryhackme.com/room/walkinganapplication)
 - Created short Writeup since it was just basic repetition of what i already learned but more deeper 
