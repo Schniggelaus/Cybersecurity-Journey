@@ -1,3 +1,6 @@
+## 08.07.206
+- Completed the Bashed Machine and created the [Writeup](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/HackTheBox/Bashed.md) for it
+
 ## 07.07.2026
 - Nearly completed the [HTB Machine Bashed](https://www.hackthebox.com/machines/bashed)
 - No writeup created so far since i could not finish it completly
