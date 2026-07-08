@@ -1,3 +1,9 @@
+## 07.07.2026
+- Nearly completed the [HTB Machine Bashed](https://www.hackthebox.com/machines/bashed)
+- No writeup created so far since i could not finish it completly
+
+## 06.07.2026
+- Break day
 ## 05.07.2026
 - Break day
 
