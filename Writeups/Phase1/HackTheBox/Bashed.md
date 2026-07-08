@@ -14,7 +14,9 @@ Step 2:
 I dont have access to anything right now. Unfortunately the website is vulnerable against directory brute force scans so i used the command
 `gobuster dir -w /usr/share/wordlists/dirbuster/directory-list-1.0.txt -u TARGET_IP_ADDRESS` 
 After getting the results:
+
 <img width="837" height="157" alt="image" src="https://github.com/user-attachments/assets/1f97796c-7a83-45dd-bb39-d8f8949e987a" />
+
 I checked every directory individualy and on `/dev` i found a file named `phpbash.php` which was a Web shell
 
 Step 3:
