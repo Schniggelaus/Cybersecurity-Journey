@@ -87,5 +87,4 @@ Learnings:
 
 
 Final conclusion:
-It took me really long to successfully gather the Root Flag. Basically the biggest issue from me was the understanding how i get advanced access rights as root user, how i can see the script is being executed every minute and
-how to import the reverse shell and how to overwrite the test.py file
+It took me really long to successfully gather the Root Flag. Basically the biggest issue for me was understanding how i get advanced access rights as root user, how i can see the Cron Job, how to import the reverse shell and how to overwrite the test.py file
