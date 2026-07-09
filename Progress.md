@@ -1,4 +1,8 @@
-## 08.07.206
+## 09.07.2026
+- Went threw [UNION SQL](https://portswigger.net/web-security/sql-injection/union-attacks) attacks on Portswigger and added some more Information to the [SQL Injection Writeup](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/PortSwigger/SQLInjection.md)
+- Went threw [Blind SQL] (https://portswigger.net/web-security/sql-injection/blind) and did the first Lab 
+
+## 08.07.2026
 - Completed the Bashed Machine and created the [Writeup](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/HackTheBox/Bashed.md) for it
 
 ## 07.07.2026
