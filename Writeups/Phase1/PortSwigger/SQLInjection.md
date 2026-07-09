@@ -1,10 +1,6 @@
 # PortSwigger – SQL Injection
 
-**Platform:** PortSwigger Web Academy  
-**Topic:** SQL Injection  
-**Date:** June 2026  
 
----
 
 ## What is SQL Injection?
 
