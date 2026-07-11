@@ -1,3 +1,10 @@
+## 11.07.2026
+- Completed Blind SQL course and added new a Writeup
+
+
+## 10.07.2026
+- Break day
+
 ## 09.07.2026
 - Went threw [UNION SQL](https://portswigger.net/web-security/sql-injection/union-attacks) attacks on Portswigger and added some more Information to the [SQL Injection Writeup](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/PortSwigger/SQLInjection.md)
 - Went threw [Blind SQL] (https://portswigger.net/web-security/sql-injection/blind) and did the first Lab 
