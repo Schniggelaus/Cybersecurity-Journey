@@ -1,5 +1,6 @@
 ## 14.07.2026
-- Going threw Linux [privilege Escalation room on TryHackMe](https://tryhackme.com/room/linprivesc)
+- Went threw 5 and halfe [Linux privilege Escalation](https://tryhackme.com/room/linprivesc) chapters on TryHackMe
+- Started Writeup for [Linux privilege Escalation](https://github.com/Schniggelaus/Cybersecurity-Journey/blob/main/Writeups/Phase1/Tryhackme/Privilege%20Escalation%20Linux.md)
 
 
 ## 13.07.2026
