@@ -5,9 +5,9 @@
 
 ## Enumeration
 
-- First step once access was gained -> get more and more information about the system
+First step once access was gained -> get more and more information about the system
 
-**hostname**
+### hostname
 Command can expose purpose of the system (e.g. SQL-PROD-01 will be a production SQL server)
 
 **uname -a**
