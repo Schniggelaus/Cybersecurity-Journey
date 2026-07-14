@@ -77,3 +77,12 @@ Different command useCases:
 - `find / -writable -type d 2>/dev/null` = Find world-writeable folders
 - `find / -perm -222 -type d 2>/dev/null` = Find world-writeable folders
 - `find / -perm -o w -type d 2>/dev/null` = Find world-writeable folders
+
+## Privilege Escalation: Karnel Exploits
+Goal: Gain root privileges; sometimes archieved threw simply exploiting an exisiting vulnerability
+Always go for the 3 Steps:
+1) Identify the kernal version
+2) Search and find exploit code for the kernel version of the target version
+3) Run the exploit
+
+IMPORTANT: runable exploit must be written in a language which is also installed on the target system
