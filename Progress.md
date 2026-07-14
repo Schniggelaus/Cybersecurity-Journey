@@ -1,3 +1,14 @@
+## 14.07.2026
+- Going threw Linux [privilege Escalation room on TryHackMe](https://tryhackme.com/room/linprivesc)
+
+
+## 13.07.2026
+- Went threw Burp Suite Module in TryHackMe - No new informations so no writeup created 
+
+
+## 12.07.2026
+- Break day
+
 ## 11.07.2026
 - Completed Blind SQL course and added new a Writeup
 
