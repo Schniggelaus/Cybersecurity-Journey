@@ -10,16 +10,16 @@ First step once access was gained -> get more and more information about the sys
 ### hostname
 Command can expose purpose of the system (e.g. SQL-PROD-01 will be a production SQL server)
 
-**uname -a**
+### uname -a
 Command prints system informations giving additional details about the kernal used by the system -> useful when searching for any potential kernel vulnerabilitie that could lead to privilege escalation
 
-**proc/version**
+### proc/version
 Command gives information about target system processes -> Info about kernal version and additional data such as whether a compiler is installed
 
-**/etc/issue**
+### /etc/issue
 System can be identified by looking at `/etc/issue`-file -> It contains some infos about OS
 
-**ps Command**
+### ps Command
 Shows running processes 
 Output shows following:
 PID: Process ID
@@ -31,27 +31,27 @@ CMD: command or executable running
 - `ps axjf` = Shows process tree
 - `ps aux` = shows processes of all users
 
-** env**
+### env
 Shows environmental variablesls
 
-**sudo -l**
+### sudo -l
 Target system may be configured to allow users to run some commands with root privileges. This command lists all commands the user can run
 
-**id**
+### id 
 Provides general overview of users privilege level and group memberships
 
-**/etc/passwd**
+### /etc/passwd
 Can be easy way to discover users on the system
 With `/etc/passwd | cut -d ":" -f 1` -> cut and convert to a useful list for brute-force attacks
 
-**history**
+### history
 Looking at earlier commands -> can give idea about target system, sometimes containing infos such as passwords and usernames
 
-**ifconfig**
+### ifconfig
 Target system may be a pivoting point to another network -> Command gives info about network interfaces 
 - `ip route` shows network routes
 
-**netstat**
+### netstat
 Gather informations about existing connections
 - `netstat -a` = shows all listening ports and established connections
 - `netstat -at` or `netstat -au` = list TCP/UDP protocols respectively
@@ -61,7 +61,7 @@ Gather informations about existing connections
 - `netstat -i` = Shows interface stats
 - `netstat -ano` = Display all sockets, does not resolve names, Display times
 
-**find**
+### find
 Different command useCases:
 - `find . -name flag.txt` = finds all files named "flag.txt" in current directory
 - `find /home -name flag.txt` = finds all files named "flag.txt" in /home directory
