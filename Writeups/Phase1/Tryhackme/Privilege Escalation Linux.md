@@ -86,3 +86,25 @@ Always go for the 3 Steps:
 3) Run the exploit
 
 IMPORTANT: runable exploit must be written in a language which is also installed on the target system
+
+## Privilege Escalation: SUID
+
+With the Command `find / -type f -perm -04000 -ls 2>/dev/null` console is showing files that have SUID(Set-user Identification) or SGID(Set-Group Identification) bits
+-> With help of [GTFOBins](https://gtfobins.org/) it is again possible to search for exploitable missconfigurations. In this case it is base64 which allows the user to read files without having root privilege
+
+## Privilege Escalation: Capabilities
+
+- System admins can increase privilege level of a process or binary is "Capabilities"
+- `getcap -r /` lists enabled capabilities
+- With help of [GTFOBins](https://gtfobins.org/) it is again possible to search for exploitable missconfigurations.
+
+## Privilege Escalation: Cron Jobs
+
+Cron jobs are used to run scripts or binaries at specific times. By default they run with the privilege of their owners and not the current user
+-> Can provide privilege escalation vector
+Idea: Task that runs with root privileges and user can change the script ( for example reverse shell to gain root access)
+Sometimes useless scripts are not getting cleaned up and just deleted 
+
+## Privilege Escalation: PATH
+
+
